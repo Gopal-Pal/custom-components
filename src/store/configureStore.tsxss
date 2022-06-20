@@ -1,0 +1,21 @@
+// import { legacy_createStore as createStore, compose } from "redux";
+// import { composeWithDevTools } from "@redux-devtools/extension";
+// import thunk from "redux-thunk";
+// import { reducers } from "./rootReducer";
+
+// const initialState = {};
+// const middleware = [thunk];
+// const enhancers: Array<any> = [];
+
+// const composedEnhancers = compose(applyMiddleware(...middleware), ...enhancers);
+// const composeEnhancers = composeWithDevTools();
+// const store = createStore(
+//   reducers,
+//   initialState,
+// //   composeWithDevTools(applyMiddleware(...middleware)),
+//   composeEnhancers()
+// );
+
+// export default store;
+// export type RootState = ReturnType<typeof store.getState>;
+// export type AppDispatch = typeof store.dispatch;
