@@ -53,3 +53,12 @@
     color: var(--white);
     background-color: var(--blueDark);
 }
+
+@media only screen and (max-width: 600px) {
+    .heading {
+        font-size: 20px;
+    }
+    .dropdown-label{
+        font-size: 20px;
+    }
+}
